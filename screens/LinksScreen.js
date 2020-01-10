@@ -1,10 +1,11 @@
 import React from "react";
-import { View, StyleSheet, Text, Platform } from "react-native";
+import { View, StyleSheet, Platform } from "react-native";
+import { MonoText } from "../components/StyledText";
 
 export default function LinksScreen() {
   return (
     <View style={styles.tabBarInfoContainer}>
-      <Text style={styles.tabBarInfoText}>You are links page of the app!</Text>
+      <MonoText>You are links page of the app!</MonoText>
     </View>
     // <ScrollView style={styles.container}>
     //   {/**

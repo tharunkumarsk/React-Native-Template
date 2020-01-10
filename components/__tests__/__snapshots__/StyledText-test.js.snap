@@ -6,6 +6,11 @@ exports[`renders correctly 1`] = `
     Array [
       undefined,
       Object {
+        "color": "rgba(96,100,109, 1)",
+        "fontSize": 17,
+        "textAlign": "center",
+      },
+      Object {
         "fontFamily": "space-mono",
       },
     ]

@@ -1,13 +1,12 @@
 import React from "react";
 import { ExpoConfigView } from "@expo/samples";
 import { View, StyleSheet, Text } from "react-native";
+import { MonoText } from "../components/StyledText";
 
 export default function SettingsScreen() {
   return (
     <View style={styles.tabBarInfoContainer}>
-      <Text style={styles.tabBarInfoText}>
-        You are settings page of the app!
-      </Text>
+      <MonoText>You are settings page of the app!</MonoText>
     </View>
   );
   /**
@@ -18,7 +17,7 @@ export default function SettingsScreen() {
 }
 
 if (Platform.OS === "ios") {
-  LinksScreen.navigationOptions = {
+  SettingsScreen.navigationOptions = {
     title: "Link"
   };
 }
