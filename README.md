@@ -4,6 +4,7 @@ This template will be used to start developing the new React app in iOS and Andr
 This  has 
  - Tab navigation
  - Stack Navigation 
+ - In Android it will be tap navigation in iOS it will be a botton navigation 
 
 
 ## Installation
