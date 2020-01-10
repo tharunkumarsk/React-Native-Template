@@ -7,16 +7,3 @@ exports[`App renders the loading screen 1`] = `
   startAsync={[Function]}
 />
 `;
-
-exports[`App renders the root without loading screen 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#fff",
-      "flex": 1,
-    }
-  }
->
-  <AppNavigator />
-</View>
-`;
